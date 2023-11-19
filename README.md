@@ -3,6 +3,19 @@
 # Plugins
 Plugins should be added to a new folder called <plugin-name>.lua in the plugins folder
 
+Kanagawa - https://github.com/rebelot/kanagawa.nvim
+dressing - https://github.com/stevearc/dressing.nvim
+fugitive - https://github.com/tpope/vim-fugitive
+nvim-autopairs - https://github.com/windwp/nvim-autopairs
+nvim-cmp - https://github.com/hrsh7th/nvim-cmp
+nvim-tree - https://github.com/nvim-tree/nvim-tree.lua
+nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter
+nvim-treesitter-textobjects - https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+rhubarb - https://github.com/tpope/vim-rhubarb
+telescope - https://github.com/nvim-telescope/telescope.nvim
+
+
+
 # Keymap
 ```
 <Leader> - is set to space
@@ -71,12 +84,5 @@ K - show documentation for what's under cursor
 ```
 
 
-
-
-# TO-DO
-1.LSP(Mason){Done}
-2.Auto-complete{Done}
-3.Telescope{Done}
-4.fuzzy finder{Done}
 5.setup keymaps{Done}
 6.Tree-Sitter
