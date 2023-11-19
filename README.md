@@ -82,7 +82,3 @@ K - show documentation for what's under cursor
 <Leader>fc - find string under cursor in current working directory
 <Ctrl>c - closes telescope
 ```
-
-
-5.setup keymaps{Done}
-6.Tree-Sitter
