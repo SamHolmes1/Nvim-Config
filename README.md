@@ -12,7 +12,7 @@ nvim-tree - https://github.com/nvim-tree/nvim-tree.lua \
 nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter \
 nvim-treesitter-textobjects - https://github.com/nvim-treesitter/nvim-treesitter-textobjects \
 rhubarb - https://github.com/tpope/vim-rhubarb \
-telescope - https://github.com/nvim-telescope/telescope.nvim \
+Telescope - https://github.com/nvim-telescope/telescope.nvim
 
 
 
