@@ -3,16 +3,16 @@
 # Plugins
 Plugins should be added to a new folder called <plugin-name>.lua in the plugins folder
 
-Kanagawa - https://github.com/rebelot/kanagawa.nvim \n 
-dressing - https://github.com/stevearc/dressing.nvim \n 
-fugitive - https://github.com/tpope/vim-fugitive \n
-nvim-autopairs - https://github.com/windwp/nvim-autopairs \n
-nvim-cmp - https://github.com/hrsh7th/nvim-cmp \n 
-nvim-tree - https://github.com/nvim-tree/nvim-tree.lua \n 
-nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter \n 
-nvim-treesitter-textobjects - https://github.com/nvim-treesitter/nvim-treesitter-textobjects \n 
-rhubarb - https://github.com/tpope/vim-rhubarb \n
-telescope - https://github.com/nvim-telescope/telescope.nvim \n
+Kanagawa - https://github.com/rebelot/kanagawa.nvim \
+dressing - https://github.com/stevearc/dressing.nvim \ 
+fugitive - https://github.com/tpope/vim-fugitive \
+nvim-autopairs - https://github.com/windwp/nvim-autopairs \
+nvim-cmp - https://github.com/hrsh7th/nvim-cmp \
+nvim-tree - https://github.com/nvim-tree/nvim-tree.lua \ 
+nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter \ 
+nvim-treesitter-textobjects - https://github.com/nvim-treesitter/nvim-treesitter-textobjects \ 
+rhubarb - https://github.com/tpope/vim-rhubarb \
+telescope - https://github.com/nvim-telescope/telescope.nvim \
 
 
 
