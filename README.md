@@ -1,7 +1,7 @@
 # Sam's Nvim config
 
 # Plugins
-Plugins should be added to a new folder called <plugin-name>.lua in the plugins folder
+Plugins should be added to a new script called <plugin-name>.lua in the plugins folder
 
 Kanagawa - https://github.com/rebelot/kanagawa.nvim \
 dressing - https://github.com/stevearc/dressing.nvim \
