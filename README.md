@@ -1,5 +1,11 @@
 # Sam's Nvim config
 
+# Disclaimer
+I can't figure out how to make mason install Prettier programatically so when you install this, run 
+```
+:MasonInstall Prettier
+```
+
 # Plugins
 Plugins should be added to a new script called <plugin-name>.lua in the plugins folder
 
