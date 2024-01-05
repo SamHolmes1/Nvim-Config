@@ -1,13 +1,14 @@
 return {
   "williamboman/mason.nvim",
+
  dependencies = {
     "williamboman/mason-lspconfig.nvim",
  },
  config = function()
     local mason = require("mason")
-
+    
     local mason_lspconfig = require ("mason-lspconfig")
-
+    
         mason.setup({
       ui = {
         icons = {
@@ -16,7 +17,10 @@ return {
           package_uninstalled = "✗",
         },
       },
-    })
+      ensure_installed = {
+      "prettier",
+      }
+    }) 
 
     mason_lspconfig.setup({
       -- list of servers for mason to install
@@ -25,11 +29,9 @@ return {
         "html",
         "cssls",
         "tailwindcss",
-        "svelte",
         "lua_ls",
         "graphql",
         "emmet_ls",
-        "prismals",
         "pyright",
         "clangd",
       },
