@@ -3,7 +3,8 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
-
+--Quality of Life keybinds
+keymap.set("n", "<C-s>", "<cmd>w<CR>", {desc = "Write to current buffer"})
 -- Window keymaps
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally

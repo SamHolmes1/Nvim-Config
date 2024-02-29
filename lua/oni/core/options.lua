@@ -7,7 +7,6 @@ opt.expandtab = true
 opt.autoindent = true
 
 --Line Numbers
-opt.relativenumber = true
 opt.number = true
 
 

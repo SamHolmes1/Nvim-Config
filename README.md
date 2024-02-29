@@ -19,14 +19,19 @@ nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter \
 nvim-treesitter-textobjects - https://github.com/nvim-treesitter/nvim-treesitter-textobjects \
 rhubarb - https://github.com/tpope/vim-rhubarb \
 Telescope - https://github.com/nvim-telescope/telescope.nvim
-
+blank-line - https://github.com/lukas-reineke/indent-blankline.nvim
+formatter - https://github.com/mhartington/formatter.nvim
+copilot - https://github.com/github/copilot.vim
+rustaceanvim - https://github.com/mrcjkb/rustaceanvim
 
 
 # Keymap
 ```
 <Leader> - is set to space
 <Shift>"+y - copies selection
-<ctr><Shift>v - pastes selection
+<Ctrl><Shift>v - pastes selection
+<Shift>k - return to previous buffer
+<Ctrl>s - save current buffer
 ```
 ## Window management
 ```
@@ -88,3 +93,4 @@ K - show documentation for what's under cursor
 <Leader>fc - find string under cursor in current working directory
 <Ctrl>c - closes telescope
 ```
+

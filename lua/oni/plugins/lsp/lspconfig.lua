@@ -60,6 +60,7 @@ return {
      lspconfig["html"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+      filetypes = { "html", "typescriptreact", "javascriptreact" },
     })
 
      lspconfig["clangd"].setup({
@@ -67,16 +68,29 @@ return {
       on_attach = on_attach,
     })
 
+     lspconfig["rust_analyzer"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })  
+
     -- configure typescript server with plugin
     lspconfig["tsserver"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+      filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact", "javascript.jsx" },
     })
 
     -- configure css server
     lspconfig["cssls"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+    })
+
+    --configure tailwindcss server
+    lspconfig["tailwindcss"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "html", "css", "javascript", "javascriptreact", "typescript", "typescriptreact"},
     })
 
     -- configure graphql language server

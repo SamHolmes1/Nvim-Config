@@ -5,7 +5,19 @@ local M = {
     },
     typescript = {
       require("formatter.filetypes.typescript").prettier
-    }
+    },
+    rust = {
+      require("formatter.filetypes.rust").rustfmt
+    },
+    typescriptreact = {
+      require("formatter.filetypes.typescript").prettier
+    },
+    javascriptreact = {
+      require("formatter.filetypes.javascript").prettier
+    },
+    c = {
+      require("formatter.filetypes.c").clang_format
+    },
   }
 }
 
