@@ -8,6 +8,7 @@ opt.autoindent = true
 
 --Line Numbers
 opt.number = true
+opt.relativenumber = true
 
 
 --Line wrapping

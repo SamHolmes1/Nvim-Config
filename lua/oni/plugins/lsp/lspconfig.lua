@@ -93,13 +93,6 @@ return {
       filetypes = { "html", "css", "javascript", "javascriptreact", "typescript", "typescriptreact"},
     })
 
-    -- configure graphql language server
-    lspconfig["graphql"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-      filetypes = { "graphql", "gql", "svelte", "typescriptreact", "javascriptreact" },
-    })
-
     -- configure emmet language server
     lspconfig["emmet_ls"].setup({
       capabilities = capabilities,
@@ -111,6 +104,14 @@ return {
     lspconfig["pyright"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
+    })
+
+    -- configure python server
+    lspconfig["gdscript"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      name = "godot",
+      cmd = vim.lsp.rpc.connect("1.7.0.0.1", "6005")
     })
 
     -- configure lua server (with special settings)

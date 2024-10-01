@@ -30,11 +30,10 @@ return {
         "cssls",
         "tailwindcss",
         "lua_ls",
-        "graphql",
         "emmet_ls",
         "pyright",
         "clangd",
-        "rust_analyzer"
+        "rust_analyzer",
       },
       -- auto-install configured servers (with lspconfig)
       automatic_installation = true, -- not the same as ensure_installed
